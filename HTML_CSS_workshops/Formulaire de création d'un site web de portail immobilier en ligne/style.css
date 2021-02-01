@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+}
+body { 
+    background-color: rgb(114, 112, 112);
+}
+form {
+    background-color: darkorange;
+    border-radius: 10pt;
+    padding: 10px;
+}
+div {
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(143, 142, 143);
+    border-radius: 10pt;
+    
+    
+}
+.white_space {
+    display: flex;
+    flex-direction: column;
+}
