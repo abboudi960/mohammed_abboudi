@@ -3,27 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
-            <h1>JJO</h1>
-        <nav>
+        <div class="headercontainer">
+        <div class="logoNav">
+            <h1 class="logo">JJO</h1>
+        <nav class="navigation">
             <a href="#">Discounts</a>
             <a href="#">About Us</a>
             <a href="#">FAQ</a>
             <a href="#">Blog</a>
-            <a href="https://www.facebook.com/">
-            <button>Login</button> 
+            <a  href="https://www.facebook.com/"  >
+            <button id="login" >Login</button> 
             </a>
         </nav>
         
         </div>
-        <div>
-            <h1>Jonior make IT work.</h1>
-             <p>Hire and invest in highly skillet juniors now.</p>
-             <form action=""></form>
+
+        <div class="headercontainer2">
+            <h1 class="whiteTitle">Jonior make IT work.</h1>
+             <p class="whiteParagraph">Hire and invest in highly skillet juniors now.</p>
+            <a href="#">
+                <button id="postOffer">Post Offer now</button>
+            </a>
+
+        </div>
         </div>
     </header>
     <main>
@@ -35,7 +42,7 @@
         <div> 
             <div>
                 <div>
-                    <h1></h1>
+                    <h1>Junior Java Devloper</h1>
                     <span>2 hours ago</span>
                     <span>PickSaaS</span>
                     <span>Wrclaw,Polska</span>
@@ -51,7 +58,7 @@
             </div>
             <div>
                 <div>
-                    <h1></h1>
+                    <h1>Junior Project Manager</h1>
                     <span>3 hours ago</span>
                     <span>Fronkom</span>
                     <span>Lublin,polska</span>
@@ -68,7 +75,7 @@
             </div>
             <div>
                 <div>
-                    <h1></h1>
+                    <h1>Junior Project Manager</h1>
                     <span>1 day ago</span>
                     <span>Fronkom</span>
                     <span>Lublin,polska</span>
@@ -91,8 +98,9 @@
         
     </main>
     <footer>
-    <h1>Recieve new job offers.</h1>
-    <p>
+    <div id="footerNav">
+    <h1 class="whiteTitle">Recieve new job offers.</h1>
+    <p class="whiteParagraph">
         Want to know as soon as a new job offer is posted in our website ? subscribe to our weekly job offer digest
     </p>
     <form action=""></form>
@@ -100,17 +108,19 @@
     <input type="email" id="email" name="email" placeholder="Enter e-mail address">
     <label for="subscribe"></label>
     <input type="submit" id="subscribe" name="subscribe" value="subscribe">
-    <div>
-            <a href="#">Job Offers</a>
-            <a href="#">conpanies</a>
-            <a href="#">Discounts</a>
-            <a href="#">About Us</a>
-            <a href="#">juniors</a>
-            <a href="#">FAQ</a>
-            <a href="#">Blog</a>
-            <a href="#">Terms</a>
-            <a href="#">Privacy Policy</a>
-    </div>
+     
+     </div>
     </footer>
+    <div id="bottomNav">
+        <a href="#">Job Offers</a>
+        <a href="#">conpanies</a>
+        <a href="#">Discounts</a>
+        <a href="#">About Us</a>
+        <a href="#">juniors</a>
+        <a href="#">FAQ</a>
+        <a href="#">Blog</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy Policy</a>
+</div>
 </body>
 </html>
