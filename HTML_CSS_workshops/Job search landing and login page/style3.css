@@ -1,0 +1,286 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("chairs.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    
+ }
+ 
+ h1 {
+     color: white;
+     margin-left: 40px;
+     height: 100px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 1000;
+     font-size: 34px;
+ }
+ 
+ .Fill {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+ }
+ 
+ .FillBlank {
+ 
+     height: 30px;
+     color: #0c1f25;
+     font-weight:900;
+     font-size: 30px;
+ }
+ 
+ section {
+     width: auto;
+     height: 850px;
+     display: flex;
+     justify-content: center;
+     
+ 
+ }
+ 
+ .green {
+     width: 500px;
+     height: 750px;
+     background-color:#0b2e3b83 ;
+     border: 2px solid white;
+     border-radius: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
+     flex-direction: column;
+ 
+ }
+ 
+ .entries {
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ 
+     
+ }
+
+ #Fname {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ #Lname {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ #Birthday {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+}
+ 
+ #email {
+     width: 300px;
+     padding: 15px;
+     border-radius: 8px;
+ }
+ 
+ #password {
+     width: 300px;
+     padding: 15px;
+     border-radius: 8px;
+ 
+ }
+ 
+ ::placeholder {
+     font-size: 16px;
+     padding-left: 80px;
+ }
+ 
+ .checkgender {
+     width: 300px;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ a {
+ 
+     color: white;
+     text-decoration: none;
+ }
+ 
+ #signUp {
+     width: 250px;
+     height: 50px;
+     border-radius: 12px;
+     color: white;
+     background-color: dodgerblue;
+     font-size: medium;
+     outline: none;
+ 
+ }
+ 
+ #cancel {
+     width: 120px;
+     height: 50px;
+     border-radius: 12px;
+     color: white;
+     background-color: dodgerblue;
+     font-size: medium;
+     outline: none;
+ 
+ }
+
+
+ /*media queries*/
+
+ @media screen and (max-width:600px) {
+
+
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        background-image: url("chairs.jpg");
+        background-repeat:no-repeat ;
+        background-size:cover;
+        
+     }
+     
+     h1 {
+         color: white;
+         margin-left: 40px;
+         height: 100px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 1000;
+         font-size: 34px;
+     }
+     
+     .Fill {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items:center;
+     }
+     
+     .FillBlank {
+         width: 320px;
+         height: 30px;
+         color: #0c1f25;
+         font-weight:900;
+         font-size: 24px;
+     }
+     
+     section {
+         width: auto;
+         height: 850px;
+         display: flex;
+         justify-content: center;
+         
+     
+     }
+     
+     .green {
+         width: 300px;
+         height: 550px;
+         background-color:#0b2e3b83 ;
+         border: 2px solid white;
+         border-radius: 30px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         justify-content: space-around;
+         flex-direction: column;
+     
+     }
+     
+     .entries {
+         height: 360px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     
+         
+     }
+    
+     #Fname {
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+     #Lname {
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+     #Birthday {
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+     
+     #email {
+         width: 200px;
+         padding: 15px;
+         border-radius: 8px;
+     }
+     
+     #password {
+         width: 200px;
+         padding: 15px;
+         border-radius: 8px;
+     
+     }
+     
+     ::placeholder {
+         font-size: 16px;
+         padding-left: 80px;
+     }
+     
+     .checkgender {
+         width: 200px;
+         color: white;
+         display: flex;
+         justify-content: space-around;
+     }
+     
+     a {
+     
+         color: white;
+         text-decoration: none;
+     }
+     
+     #signUp {
+         width: 180px;
+         height: 40px;
+         border-radius: 12px;
+         color: white;
+         background-color: dodgerblue;
+         font-size: medium;
+         outline: none;
+     
+     }
+     
+     #cancel {
+         width: 100px;
+         height: 40px;
+         border-radius: 12px;
+         color: white;
+         background-color: dodgerblue;
+         font-size: medium;
+         outline: none;
+     
+     }
+    
+
+
+ 

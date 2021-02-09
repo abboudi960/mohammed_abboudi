@@ -1,6 +1,238 @@
 body {
    margin: 0px;
    padding: 0px;
+   width: 100%;
+   height: 100%;
+   background-image: url("chairs.jpg");
+   background-repeat:no-repeat ;
+   background-size:cover;
+   
+}
+
+h1 {
+    color: white;
+    margin-left: 40px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 34px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.welcomeH {
+    width: 340px;
+    height: 40px;
+    color: #0c1f25;
+    font-weight:900;
+    font-size: 35px;
+}
+
+section {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
 
 }
 
+.green {
+    width: 500px;
+    height: 380px;
+    background-color:#0b2e3b83 ;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.entries {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+#email {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#password {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+::placeholder {
+    font-size: 16px;
+    padding-left: 80px;
+}
+
+.checkboxes {
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+#create {
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: medium;
+    outline: none;
+
+}
+
+#login {
+    width: 120px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: medium;
+    outline: none;
+
+}
+
+
+/*media queries*/
+
+@media screen and (max-width:600px) {
+
+
+body {
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+   height: 100%;
+   background-image: url("chairs.jpg");
+   background-repeat:no-repeat ;
+   background-size:cover;
+   
+}
+
+h1 {
+    color: white;
+    margin-left: 40px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 34px;
+}
+
+.welcomeH {
+    width: 300px;
+    height: 60px;
+    color: #0c1f25;
+    font-weight:900;
+    font-size: 30px;
+}
+
+section {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.green {
+    width: 345px;
+    height: 380px;
+    background-color:#0b2e3b83 ;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.entries {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+#email {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#password {
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+::placeholder {
+    font-size: 16px;
+    padding-left: 80px;
+}
+
+.checkboxes {
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+#create {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: medium;
+    outline: none;
+
+}
+
+#login {
+    width: 80px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: medium;
+    outline: none;
+
+}

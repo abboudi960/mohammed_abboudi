@@ -8,7 +8,7 @@ header {
     height: 356px;
     background-image: url("hero-image.png");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     display: flex;
     justify-content: center;
 }
@@ -63,20 +63,20 @@ header {
 
     color: white;
     background-color: dodgerblue;
-    border: none;
     border-radius:4px;
     width: 70px;
     height: 30px;
+    outline: none;
 }
 
 #postOffer {
       
     color: white;
     background-color: dodgerblue;
-    border: none;
     border-radius:4px;
     width:200px;
     height: 34px;
+    outline: none;
 }
 
 .whiteTitle {
@@ -189,16 +189,19 @@ header {
 }
 
 .iconsDiv {
-
     display: flex;
     justify-content:space-between;
     align-items: baseline;
-    
-
+    overflow: scroll;
 }
 
+.iconsDiv::-webkit-scrollbar {
+    display:none;
+  }
+
+
 .iconsDiv .imgDiv {
-    border: 1px solid black;
+    border: 2px solid rgb(223, 223, 223);
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -215,16 +218,17 @@ img {
 .buttonSCL {
     color: white;
     background-color: dodgerblue;
-    border: none;
     border-radius:50%;
     width: 50px;
     height: 50px;
+    outline: none;
 }
 
 .AIH {
     display: flex;
    flex-direction: column;
    align-items: center;
+   min-width: 160px;
    
 
 
@@ -246,7 +250,7 @@ footer {
 .Fsection {
     background-color: black;
     background-image: url("Newsletter-image.png");
-    background-size:contain;
+    background-size:cover;
     width:90%;
     height: 250px;   
 }
@@ -260,10 +264,10 @@ footer {
 
 #subscribe {
     background-color: dodgerblue;
-    border: none;
     border-radius:4px;
     width: 160px;
     height: 34px;
+    outline: none;
 }
 
 #recieveDiv {
@@ -297,4 +301,342 @@ footer {
 #navBottom a:hover {
     
     text-decoration: underline;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width:600px) {
+
+    body {
+        margin: 0px;
+        padding: 0px; 
+        width: 525px;
+
+    }
+    
+    header {
+        margin: auto;
+        width:100%;
+        height: 300px;
+        background-image: url("hero-image.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .headercontainer {
+           
+        width: 100%;
+        height: 80px;
+        display: block;
+        height: 10px;
+    }
+    
+    .logo {
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:800;
+        font-size: 40px;
+        
+    }
+    
+    .headercontainer2 {
+        
+           display:flex;
+           justify-content: center;
+           align-items: center;
+           
+    }
+    
+    .logoNav {
+        
+        color: white;
+        display: flex;
+        align-items:baseline;
+        justify-content: space-between;   
+    }
+    
+    .navigation {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: space-between;
+        font-size: 12px; 
+        font-weight: 30;
+          
+    }
+    
+    .navigation a {
+        
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+    
+    .navigation a:hover {
+    
+        text-decoration:underline;
+    }
+    
+    #login {
+    
+        color: white;
+        background-color: dodgerblue;
+        border-radius:4px;
+        font-size: 12px; 
+        font-weight: 600;
+        width: 60px;
+        height: 28px;
+        outline: none;
+    }
+    
+    #postOffer {
+          
+        color: white;
+        background-color: dodgerblue;
+        border-radius:4px;
+        font-size: 12px; 
+        font-weight: 600;
+        width:120px;
+        height: 30px;
+        outline: none;
+        
+    }
+    
+    .whiteTitle {
+    
+        color: white;
+        font-size:28px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+        height: 30px;
+        width: 280px;
+    }
+    
+    .whiteParagraph {
+        
+        color: white;
+        font-size: 16px;
+        height: 40px;
+    }
+    
+    .mainDivH {
+        margin-left: 20px;
+        width:90%;
+        display: flex;
+        align-items: baseline;
+        justify-content:space-between; 
+    }
+    
+    #VJO {
+         color:dodgerblue ;
+         text-decoration: none;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 600;
+         font-size:10;
+    }
+    
+    .Psection {
+        width: 100%;
+        display: flex;
+        height: 650px;
+        flex-direction: column;
+        align-items:center ;
+        align-content: space-around;
+    }
+    
+    .blackTitle {
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    
+    .TitleIcons {
+    
+        margin-left: 5%;
+    }
+    .divC {
+        
+        width: 380px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .lines {
+        margin: 0%;
+        
+        
+    }
+    
+    .uperDiv {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    
+    .lowerDiv {
+        width: 300px;
+        display: flex;
+        align-items:flex-end;
+    }
+    
+    .HJunior {
+    
+        font-size: medium;
+        color:dodgerblue;
+    }
+    
+    .dateSpan {
+        color:gray;
+        font-size:12px;
+    }
+    
+    .names {
+    
+        color:gray;
+        font-size:13px;
+    }
+    
+    .Bnames {
+    
+        color:black;
+        font-size:13px;
+    }
+    
+    .grayParagraph {
+        height: 70px;
+        font-size: 12px;
+        color:gray;
+        font-weight:300;
+    }
+    
+    #button {
+    
+        color: white;
+        background-color: dodgerblue;
+        border: none;
+        border-radius:4px;
+        width: 35px;
+        height: 30px;
+    }
+    
+    .iconsDiv {
+    
+        display: flex;
+        justify-content:space-between;
+        align-items: baseline;
+        overflow: scroll;
+    }
+    .iconsDiv::-webkit-scrollbar {
+        display:none;
+      }
+    
+    .iconsDiv .imgDiv {
+        border: 2px solid rgb(223, 223, 223);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    
+    img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .buttonSCL {
+        color: white;
+        background-color: dodgerblue;
+        border-radius:50%;
+        width: 22px;
+        height: 22px;
+        outline: none;
+    }
+    
+    .AIH {
+        
+       min-width: 80px;
+    
+    }
+    
+    h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+    }
+    
+    footer {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .Fsection {
+        
+        background-color: black;
+        background-image: url("Newsletter-image.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:right;
+        width:100%;
+        height: 250px;  
+        
+    }
+
+    
+    #email {
+    
+        width: 300px;
+        height: 30px;
+        border-radius: 4px;
+    }
+    
+    #subscribe {
+        background-color: dodgerblue;
+        border-radius:4px;
+        width: 100px;
+        height: 34px;
+        outline: none;
+    }
+    
+    #recieveDiv {
+    
+        width: 500px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        margin: 15px;
+        margin-left: 30px;
+    }
+    
+    #navBottom {
+        width: 400px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #navBottom a {
+        
+        color: rgb(95, 95, 95);
+        font-size: 8px;
+        font-weight:600;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #navBottom a:hover {
+        
+        text-decoration: underline;
+    }
+    
+
+
+
 }
